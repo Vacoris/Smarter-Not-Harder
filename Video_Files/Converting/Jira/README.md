@@ -6,6 +6,11 @@ Everyone hits some comment file size limit in JIRA. I know I have. So here I wil
 
 Included in this directory is a list of different Handbrake profiles I have used in my life to reduce down the file size of a video so that it meets the file limit on JIRA.
 
+### **Download**
+
+Handbreak can be found on their main website:
+- https://handbrake.fr/
+
 ### **Profiles**
 
 The audio vs no audio simply means that it will output that video with or without audio.
