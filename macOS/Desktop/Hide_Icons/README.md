@@ -1,22 +1,27 @@
 # Hide Desktop Icons
 
-There comes a time where you need to hide the icons on your macOS. Whether this is for a clean screen share for a meeting to a screen recording. The following script when run will toggle Hide/Show of desktop icons so regardless of what you need a clean desktop for you can simply run and done.
+There may come a time when you need to hide the icons on your macOS, whether it's for a clean screen share during a meeting or for a screen recording. The following script, when executed, will toggle the Hide/Show state of desktop icons. This way, regardless of your need for a clean desktop, you can simply run the script and be done with it.
 
 ## Details
 
-The script included is a bash script that is using macOS functionality for how finder shows the desktop. The only requirement for this is that the macOS allows for executing a bash script.
+The included script is written in bash and utilizes macOS functionality to control how Finder displays desktop icons. The only requirement for this to work is that macOS allows for the execution of bash scripts.
 
 ## Usage
 
-- Navigate to the containing folder of the script
-- In terminal type the following and hit Enter
+To use the script, follow these steps:
+
+1. Open a terminal.
+1. Navigate to the folder containing the script.
+1. Type the following command and hit Enter:
 
     ```sh
     ./Hide_Desktop_Icons.sh
     ```
 
+This will execute the script and toggle the visibility of your desktop icons.
+
 ## Automator Application
 
-An automator application can be created on macOS so that you can execute this script without using terminal.
+If you prefer not to use the terminal, you can create an Automator application on macOS to execute this script with ease.
 
-TBD
+*TBD* (To Be Determined)
