@@ -12,7 +12,9 @@ function Show_Icons() {
     killall Finder
 }
 
-if [ "$(defaults read com.apple.finder CreateDesktop)" == "false" ]; then
+currState=$(defaults read com.apple.finder CreateDesktop 2>/dev/null)
+
+if [ "$currState" == "false" ]; then
     Show_Icons
 else
     Hide_Icons
